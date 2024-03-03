@@ -1,41 +1,35 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Steamworks SDK Tracker</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
 </head>
-
+<style>
+    pre {
+        white-space: pre-wrap; /* Since CSS 2.1 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+    }
+</style>
 <body>
-    <style>
-        pre {
-            white-space: pre-wrap;
-            /* Since CSS 2.1 */
-            white-space: -moz-pre-wrap;
-            /* Mozilla, since 1999 */
-            white-space: -pre-wrap;
-            /* Opera 4-6 */
-            white-space: -o-pre-wrap;
-            /* Opera 7 */
-            word-wrap: break-word;
-            /* Internet Explorer 5.5+ */
-        }
-    </style>
-    <div class="container pt-3">
-        <h1 class="text-center">Steamworks SDK Tracker</h1>
-        <p>To search for a file, use Control + F and enter the SHA-1 or MD5 hash.</p>
-        <p>For programmatic use, consume or download the JSON file at <a href="results.json" target="_blank">this
-                link.</a>
-        </p>
-        <p>"To verify if a new version has been released, <a href="https://steamdb.info/app/1007/" target="_blank">enter
-                here.</a></p>
-        <pre><code class="language-json theme-atom-one-dark">
+<div class="container pt-3">
+    <h1 class="text-center">Steamworks SDK Tracker</h1>
+    <p>To search for a file, use Control + F and enter the SHA-1 or MD5 hash.</p>
+    <p>For programmatic use, consume or download the JSON file at <a href="results.json" target="_blank">this link.</a>
+    </p>
+    <p>To verify if a new version has been released, <a href="https://steamdb.info/app/1007/" target="_blank">enter
+        here.</a></p>
+    <p>To download SDKs, <a href="https://mega.nz/folder/tPUBFYQS#7yInd1Y8Bjj5hx2mzxd3HQ" target="_blank">enter
+        here.</a></p>
+    <pre><code class="language-json theme-atom-one-dark">
 {
     "1.00": {
         "release_date": "01-May-08",
@@ -5187,20 +5181,126 @@
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158.zip"
             }
         }
+    },
+    "1.58a": {
+        "release_date": "26-Oct-23",
+        "version": "1.58a",
+        "notes": "Version 1.58a is identical to 1.58, but includes fixes to steam_api_flat.h",
+        "files": {
+            "libsteam_api.so": {
+                "os": "linux",
+                "arch": "x64",
+                "sha1": "6168abb266945c10c017568d014dc1abf3f623ae",
+                "md5": "648218c7db774b5fd296685dd06f3618",
+                "relative_path": "linux64\\libsteam_api.so",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158a.zip"
+            },
+            "libsteam_api.dylib": {
+                "os": "osx",
+                "arch": "x64",
+                "sha1": "be81363364b7b47345656a8a5842bc581d5eaf6a",
+                "md5": "33d6cd5a79eabab7229ca99e5091b7f5",
+                "relative_path": "osx\\libsteam_api.dylib",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158a.zip"
+            },
+            "steam_api.dll": {
+                "os": "windows",
+                "arch": "x86",
+                "sha1": "a45a97d3cc60792df9946bccbba5e095d033e2ec",
+                "md5": "a85812c6a4880ac22e27cc65c9a687c1",
+                "relative_path": "steam_api.dll",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158a.zip"
+            },
+            "steam_api.lib": {
+                "os": "windows",
+                "arch": "x86",
+                "sha1": "f8fc878b37d1235a3b59f2e2451ede82d8f89830",
+                "md5": "3000441a7964befd184a142b5a9048e5",
+                "relative_path": "steam_api.lib",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158a.zip"
+            },
+            "steam_api64.dll": {
+                "os": "windows",
+                "arch": "x64",
+                "sha1": "0c67ff54afa0e53f82659abeeea0d8ab1dcad1ed",
+                "md5": "543515a345cc88cb93413953f06f34a4",
+                "relative_path": "win64\\steam_api64.dll",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158a.zip"
+            },
+            "steam_api64.lib": {
+                "os": "windows",
+                "arch": "x64",
+                "sha1": "7cf25bee955f617bcc6d766dae87d2b48ce4a81d",
+                "md5": "92ec2184bf87b3b06b9888001e5c723e",
+                "relative_path": "win64\\steam_api64.lib",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_158a.zip"
+            }
+        }
+    },
+    "1.59": {
+        "release_date": "09-Feb-24",
+        "version": "1.59",
+        "notes": "Adds a new initialization entry point, SteamAPI_InitFlat, intended for non-C++ projects.",
+        "files": {
+            "libsteam_api.so": {
+                "os": "linux",
+                "arch": "x64",
+                "sha1": "0a02effde7a49a46954b5dff403b181dcb969c47",
+                "md5": "db0399ffb29ed2e2b26dbffa7cc89bcb",
+                "relative_path": "linux64\\libsteam_api.so",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_159.zip"
+            },
+            "libsteam_api.dylib": {
+                "os": "osx",
+                "arch": "x64",
+                "sha1": "a0d5d2c65d7e1e2af33fb23af437475f43c9e450",
+                "md5": "c304605da9688882866f93a626d5fff4",
+                "relative_path": "osx\\libsteam_api.dylib",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_159.zip"
+            },
+            "steam_api.dll": {
+                "os": "windows",
+                "arch": "x86",
+                "sha1": "0202ac1a0fc1b6bdedaaa0602b1b92efe51ed650",
+                "md5": "768b955fcb90e516c465ee612fe64cdc",
+                "relative_path": "steam_api.dll",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_159.zip"
+            },
+            "steam_api.lib": {
+                "os": "windows",
+                "arch": "x86",
+                "sha1": "3fc2eb77d78f5b92b5ea70d1bfdf39452ba95527",
+                "md5": "00a43af95578048ba6e59832debe1657",
+                "relative_path": "steam_api.lib",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_159.zip"
+            },
+            "steam_api64.dll": {
+                "os": "windows",
+                "arch": "x64",
+                "sha1": "48a9b3fd2670bb743e366da9203238a4fc69f903",
+                "md5": "36f023155d9357e4c9c61af2e340abfe",
+                "relative_path": "win64\\steam_api64.dll",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_159.zip"
+            },
+            "steam_api64.lib": {
+                "os": "windows",
+                "arch": "x64",
+                "sha1": "9c67768767db8764b7d4f34d6b949ae334a8ede2",
+                "md5": "eeda4465cd7217a94e2148e551bce138",
+                "relative_path": "win64\\steam_api64.lib",
+                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_159.zip"
+            }
+        }
     }
 }
     </code></pre>
-    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
-    <script>
-        window.addEventListener('load', function() {
-            hljs.highlightAll();
-        })
-    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
-
 </html>
