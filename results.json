@@ -1462,22 +1462,6 @@
         "version": "1.16",
         "notes": "Introduces an interface for adding screenshots to the Steam library, and an HTTP interface for raw POST data.",
         "files": {
-            "": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": ".",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_116.zip"
-            },
-            "linux32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux32",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_116.zip"
-            },
             "libSteam.so": {
                 "os": "linux",
                 "arch": "x86",
@@ -1516,14 +1500,6 @@
                 "sha1": "86729037e1dcaaa38be51aa7c2825b8bfc294f88",
                 "md5": "0089746897ef1a4458e21e0d3219d890",
                 "relative_path": "linux32/steamclient.so",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_116.zip"
-            },
-            "osx32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "osx32",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_116.zip"
             },
             "libSteam.dylib": {
@@ -1612,14 +1588,6 @@
                 "sha1": "605ecd6df6a8acdfa0ed2d81a3eb9a2e35b90d3a",
                 "md5": "4b47fdfa98febcdc7f5c6d5131748e68",
                 "relative_path": "vstdlib_s.dll",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_116.zip"
-            },
-            "win64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "win64",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_116.zip"
             },
             "steam_api64.dll": {
@@ -4170,44 +4138,12 @@
         "version": "1.44",
         "notes": "Adds new APIs ISteamNetworkingSockets and ISteamNetworkingUtils",
         "files": {
-            "": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": ".",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
-            },
-            "linux32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux32",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
-            },
             "libsteam_api.so": {
                 "os": "linux",
                 "arch": "x64",
                 "sha1": "c1b4a9f6f4b3b17c8a9400e717db0d25ae78de03",
                 "md5": "269b9f459f23083b89c2398540250a20",
                 "relative_path": "linux64/libsteam_api.so",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
-            },
-            "linux64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux64",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
-            },
-            "osx32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "osx32",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
             },
             "libsteam_api.dylib": {
@@ -4232,14 +4168,6 @@
                 "sha1": "daeeac42efc6f23bba41f86a3035cbc9334f2c08",
                 "md5": "7d19f74e262c97cc050baa20637a685b",
                 "relative_path": "steam_api.lib",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
-            },
-            "win64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "win64",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_144.zip"
             },
             "steam_api64.dll": {
@@ -4320,44 +4248,12 @@
         "version": "1.46",
         "notes": "Adds new API ISteamRemotePlay. Changes to ISteamInput",
         "files": {
-            "": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": ".",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
-            },
-            "linux32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux32",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
-            },
             "libsteam_api.so": {
                 "os": "linux",
                 "arch": "x64",
                 "sha1": "5f5881f38824a0dda0d3c2598ec4f57003821e6a",
                 "md5": "4e83b7690ced531423220177fa72580a",
                 "relative_path": "linux64/libsteam_api.so",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
-            },
-            "linux64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux64",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
-            },
-            "osx": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "osx",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
             },
             "libsteam_api.dylib": {
@@ -4382,14 +4278,6 @@
                 "sha1": "c177b6df7f15ca8e45641b9f4509a37bb03b778c",
                 "md5": "3855baaa6df7d05b93a8566411ad0fd4",
                 "relative_path": "steam_api.lib",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
-            },
-            "win64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "win64",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_146.zip"
             },
             "steam_api64.dll": {
@@ -4470,44 +4358,12 @@
         "version": "1.48a",
         "notes": "Version 1.48a is identical to 1.48, except libsdkencryptedappticket.dylib is properly signed to allow notarization.",
         "files": {
-            "": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": ".",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
-            },
-            "linux32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux32",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
-            },
             "libsteam_api.so": {
                 "os": "linux",
                 "arch": "x64",
                 "sha1": "16555fe5bb87b702ce862d8910499edcbcb5d5fd",
                 "md5": "8915306857eef2a516956a2398845ea2",
                 "relative_path": "linux64/libsteam_api.so",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
-            },
-            "linux64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux64",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
-            },
-            "osx": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "osx",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
             },
             "libsteam_api.dylib": {
@@ -4534,14 +4390,6 @@
                 "relative_path": "steam_api.lib",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
             },
-            "win64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "win64",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_148a.zip"
-            },
             "steam_api64.dll": {
                 "os": "windows",
                 "arch": "x64",
@@ -4565,44 +4413,12 @@
         "version": "1.49",
         "notes": "Adds new functions to ISteamApps, ISteamFriends & ISteamuserStats.",
         "files": {
-            "": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": ".",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
-            },
-            "linux32": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux32",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
-            },
             "libsteam_api.so": {
                 "os": "linux",
                 "arch": "x64",
                 "sha1": "898e5c6ff4590a4c985a0abab049bd89125ae170",
                 "md5": "ce58d51d24e7fd6618ef523d58ab70b0",
                 "relative_path": "linux64/libsteam_api.so",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
-            },
-            "linux64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "linux64",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
-            },
-            "osx": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "osx",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
             },
             "libsteam_api.dylib": {
@@ -4627,14 +4443,6 @@
                 "sha1": "b347204d9e2b2bd4b0b73bd14e239f47f45061bf",
                 "md5": "0b085bf8179841e66aee2135c569d9f9",
                 "relative_path": "steam_api.lib",
-                "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
-            },
-            "win64": {
-                "os": "windows",
-                "arch": "x86",
-                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-                "md5": "d41d8cd98f00b204e9800998ecf8427e",
-                "relative_path": "win64",
                 "download_link": "https://partner.steamgames.com/downloads/steamworks_sdk_149.zip"
             },
             "steam_api64.dll": {
