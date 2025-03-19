@@ -5261,7 +5261,7 @@
         }
     },
     "1.60": {
-        "release_date": "09-Feb-24",
+        "release_date": "26-Jun-24",
         "version": "1.60",
         "notes": "Adds ISteamTimeline and game beta control functions",
         "files": {
@@ -5316,7 +5316,7 @@
         }
     },
     "1.61": {
-        "release_date": "09-Feb-24",
+        "release_date": "08-Nov-24",
         "version": "1.61",
         "notes": "Improved ISteamTimeline based on developer feedback",
         "files": {
@@ -5371,7 +5371,7 @@
         }
     },
     "1.62": {
-        "release_date": "09-Feb-24",
+        "release_date": "14-Mar-25",
         "version": "1.62",
         "notes": "Adds the ability to get distinct mouse and keyboard input from remote players using ISteamRemotePlay",
         "files": {
